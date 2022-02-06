@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="30dp"
+    android:weightSum="1.1"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp"
+    android:layout_gravity="center"
+    android:background="@color/colorprimarydark"
+
+    >
+
+
+<!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="0.9">-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chest Exercise"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_chestexercise"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leg Exercise"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@id/setting_chestexercise"
+            android:id="@+id/setting_legexercise"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shoulder Exercise"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@id/setting_legexercise"
+            android:id="@+id/setting_shoulderexercise"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arm Exercise"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/setting_shoulderexercise"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_armexercise"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABC Exercise"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@id/setting_armexercise"
+            android:id="@+id/setting_abcexercise"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day one"
+            android:textColor="@color/white"
+            android:layout_below="@id/setting_abcexercise"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_dayone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Two"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/setting_dayone"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_daytwo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Three"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/setting_daytwo"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_daythree"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Four"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/setting_daythree"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_dayfour"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Five"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/setting_dayfour"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_dayfive"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Day Six"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/setting_dayfive"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/setting_daysix"/>
+        <TextView
+        android:layout_width="match_parent"
+            android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Day Seven"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/setting_daysix"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/setting_dayseven"/>
+
+        <TextView
+            android:id="@+id/setting_dayeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/setting_dayseven"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="Day Eight"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_weight="0.2">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.92"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cencel"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/setting_cencel"
+            android:textSize="20dp"
+            android:layout_below="@id/setting_dayeight"
+            />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

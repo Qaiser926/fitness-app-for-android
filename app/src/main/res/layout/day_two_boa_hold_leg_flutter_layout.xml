@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="30dp"
+    android:paddingBottom="20dp"
+    android:layout_gravity="center"
+    android:background="#EAEAEA"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            app:lottie_rawRes="@raw/boat_hold_leg_flutters"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="X"
+            android:textColor="@color/black"
+            android:id="@+id/baot_holdlegflutter_finish"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/ciculer_background"
+            android:layout_alignEnd="@id/abdominal_descripton"
+            android:layout_alignRight="@id/abdominal_descripton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BAOT HOLD LEG FLUTTER"
+            android:layout_below="@id/animationView"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:layout_marginTop="14dp"
+            android:id="@+id/abdominal_header"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repeat"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/abdominal_header"
+            android:textSize="15dp"
+            android:id="@+id/abdominal_repeat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="1X12"
+            android:layout_alignEnd="@id/abdominal_descripton"
+            android:layout_below="@id/abdominal_header"
+            android:layout_marginRight="10dp"
+            android:layout_alignRight="@id/abdominal_descripton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/abdominal_descripton"
+            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/abdominal_repeat"
+            android:text="the flutter kick is often used as an intensive
+training tool in the military. They help to develop the hip flexors,
+abdominal muscles and leg muscles. Flutter kicks are a four-count exercise.
+ Starting position is lying flat on the back with the feet and head
+ approximately 6 inches (15 cm) off the ground. Hands are under the buttocks
+ to support the lower back. Count one: raise the left leg to a 45-degree
+angle, keeping the right leg stationary. Count two: raise the right leg off
+the ground to a 45-degree angle while, at the same time, moving the left
+leg to the starting position. Counts three and four are repetitions of the
+same movements"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

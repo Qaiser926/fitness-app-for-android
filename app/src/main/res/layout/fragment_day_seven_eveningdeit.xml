@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:elevation="10dp"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".BegginnerLevel.fragment.diet_Fragment.DaySevendietFragment.DaySevenEveningdeit">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="One cup tea "/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Or One Glass slice "/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

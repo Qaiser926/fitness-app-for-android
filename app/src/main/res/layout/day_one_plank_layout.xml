@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="30dp"
+    android:layout_gravity="center"
+    android:background="#EAEAEA"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            app:lottie_rawRes="@raw/plank"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="X"
+            android:textColor="@color/black"
+            android:id="@+id/plank_finish"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/ciculer_background"
+            android:layout_alignEnd="@id/abdominal_descripton"
+            android:layout_alignRight="@id/abdominal_descripton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLANK"
+            android:layout_below="@id/animationView"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:layout_marginTop="14dp"
+            android:id="@+id/abdominal_header"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repeat"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/abdominal_header"
+            android:textSize="15dp"
+            android:id="@+id/abdominal_repeat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="1X12"
+            android:layout_alignEnd="@id/abdominal_descripton"
+            android:layout_below="@id/abdominal_header"
+            android:layout_marginRight="10dp"
+            android:layout_alignRight="@id/abdominal_descripton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/abdominal_descripton"
+            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/abdominal_repeat"
+            android:text="Start in the push up position. Bend your right
+knee toward your chest and keep your left leg straight , then quickly switch
+from one leg to the other."
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="This excercise strengthens multiple muscle groups."
+            android:layout_marginTop="10dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:layout_below="@id/abdominal_descripton"
+            android:id="@+id/abdmonial_second_description"/>
+        <!-- <ImageView
+             android:layout_width="80dp"
+             android:layout_height="50dp"
+             android:src="@drawable/next_arrow"
+             android:id="@+id/nextbtn"
+             android:layout_below="@id/abdmonial_second_description"
+             android:layout_alignEnd="@id/abdominal_descripton"
+             android:layout_marginTop="20dp"
+             android:layout_alignRight="@id/abdominal_descripton" />
+         <ImageView
+             android:layout_width="80dp"
+             android:layout_height="50dp"
+             android:src="@drawable/back_arrow"
+             android:id="@+id/previocebtn"
+             android:layout_below="@id/abdmonial_second_description"
+             android:layout_marginTop="20dp"/>-->
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

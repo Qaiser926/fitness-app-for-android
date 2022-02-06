@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fitnessapps.workoutapps">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fitebody">
+
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_tap_pushup_startExercise_cheste"></activity>
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_tap_pushup_readytogo_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Tricept_curl_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Tricept_curl_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Tricept_curl_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Leg_riser_rest_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Leg_riser_startExercise_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Leg_riser_ready_togo_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Jumping_jack_rest_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Jumping_jack_startExercise_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Jumping_jack_ready_togo_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Cross_knee_tricept_rest_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Cross_knee_tricept_startExercise_shoulder" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Cross_knee_tricept_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Squat_kick_rest_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Squat_kick_startExercise_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Squat_kick_ready_togo_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Jumping_jack_rest_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Jumping_jack_startExercise_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Jumping_jack_ready_togo_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Inchworm_rest_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Inchworm_startExercise_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Inchworm_ready_togo_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.High_knee_tap_rest_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.High_knee_tap_startExercise_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.High_knee_tap_ready_togo_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Butt_kick_rest_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Butt_kick_startExercise_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Butt_kick_ready_togo_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Boat_hol_leg_flutter_rest_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Boat_hol_leg_flutter_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Boat_hol_leg_flutter_ready_togo_leg" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Spiderman_pushup_rest_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Spiderman_pushup_startExercise_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Spiderman_pushup_ready_togo_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cross_kneetricep_extension_rest_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cross_kneetricep_extension_startExercise_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cross_kneetricep_extension_ready_togo_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cobra_rest_cobra" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cobra_startExercise_cobra" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cobra_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_tap_pushup_rest_chest" />
+        <activity android:name=".AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_tap_pushup_startExercise" />
+        <activity android:name=".AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_tap_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_Stretch_rest_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_Stretch_startExercise_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chest_Stretch_ready_togo_chest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Plank_lowtohigh_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Plank_lowtohigh_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Plank_lowtohigh_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Jumping_jack_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Jumping_jack_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Jumping_jack_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Elevated_pike_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Elevated_pike_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Elevated_pike_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Decline_wide_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Decline_wide_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Decline_wide_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Burpee_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Burpee_pushup_startExercise" />
+        <activity android:name=".AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Burpee_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Squate_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Squate_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Squat_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Reverse_crunch_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Reverse_crunch_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Reverse_crunch_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Reverse_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Reverse_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Reverse_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Wiper_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Wiper_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Wiper_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Dynamic_hip_flexor_stretch_right_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Dynamic_hip_flexor_stretch_right_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Dynamic_hip_flexor_stretch_right_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Dynamic_hip_flexor_stretch_left_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Dynamic_hip_flexor_stretch_left_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Dynamic_hip_flexor_stretch_left_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Diagonal_Moutain_climber_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Diagonal_Moutain_climber_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Diagonal_Moutain_climber_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_split_squat_jump_left_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_split_squat_jump_left_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_split_squat_jump_left_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Yoga_pose_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Yoga_pose_startExerecise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Yoga_pose_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Warm_upguy_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Warm_upguy_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Warm_upguy_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Side_plank_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Side_plank_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.SHOULDER_ACTIVITY_FOLDER.Side_plank_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Step_upon_chair_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Step_upon_chair_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Step_upon_chair_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Side_hip_abduction_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Side_hip_abduction_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Side_hip_abduction_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Lunge_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Lunge_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Lunge_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Bulgarian_split_squat_jump_right_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Bulgarian_split_squat_jump_right_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.LEG_ACTIVITY_FOLDER.Bulgarian_split_squat_jump_right_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cobra_chest_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cobra_chest_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Cobra_chest_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chinup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chinup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Chinup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Brige_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Brige_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.CHEST_ACTIVITY_FOLDER.Brige_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Wide_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Wide_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Wide_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Tricept_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Tricept_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Tricept_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Clap_knee_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Clap_knee_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.ArmActivityFolder.Clap_knee_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Squate_kick_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Squate_kick_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Squate_kick_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Spiderman_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Spiderman_pushup_startExecise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Spiderman_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Protein_prinsen_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Protein_prinsen_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Protein_prinsen_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Man_doing_rop_Exercise_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Man_doing_rop_Exercise_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Man_doing_rop_Exercise_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Jumping_jack_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Jumping_jack_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Jumping_jack_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Inchworm_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Inchworm_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Inchworm_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Chinup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Chinup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Chinup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Butt_kick_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Butt_kick_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Butt_kick_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Boat_bold_beg_flutter_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Boat_bold_beg_flutter_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.ABC.Boat_bold_beg_flutter_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Side_lunge_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Side_lunge_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Side_lunge_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Shoulder_stretch_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Shoulder_stretch_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Shoulder_stretch_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Russian_Twist_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Russian_Twist_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Russian_Twist_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Prone_chest_stretchright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Prone_chest_stretchright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Prone_chest_stretchright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Prone_chest_stretchLeft_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Prone_chest_stretchLeft_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Prone_chest_stretchLeft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Flutter_kick_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Flutter_kick_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Flutter_kick_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Bike_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Bike_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayeight.Bike_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Wiper_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Wiper_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Wiper_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Stretchright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Stretchright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Stretchright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Steeping_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Steeping_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Steeping_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Skater_jump_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Skater_jump_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Skater_jump_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Side_lungeto_curtsy_lunkgeright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Side_lungeto_curtsy_lunkgeright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Side_lungeto_curtsy_lunkgeright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Side_lungeto_curtsy_lunkgeLeft_reset" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Side_lungeto_curtsy_lunkgeLeft_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayseven.Side_lungeto_curtsy_lunkgeLeft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Plank_lowtoHight_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Plank_lowtoHight_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Plank_lowtoHight_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Oblique_twist_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Oblique_twist_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Oblique_twist_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Modiefied_burpee_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Modiefied_burpee_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Modiefied_burpee_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Leg_riser_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Leg_riser_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Leg_riser_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Leg_rise_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Leg_rise_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Leg_rise_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Laying_Abductor_stretchright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Laying_Abductor_stretchright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Laying_Abductor_stretchright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Laying_Abductor_stretchleft_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Laying_Abductor_stretchleft_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Laying_Abductor_stretchleft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Kneeling_Achilles_stretchright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Kneeling_Achilles_stretchright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Kneeling_Achilles_stretchright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Kneeling_Achilles_stretchLeft_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Kneeling_Achilles_stretchLeft_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daysix.Kneeling_Achilles_stretchLeft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Jumping_jack_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Jumping_jack_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Jumping_jack_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Iren_manpose_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Iren_manpose_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Iren_manpose_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.IrenMan_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.IrenMan_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.IrenMan_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Incline_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Incline_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Incline_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Hip_flexorright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Hip_flexorright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Hip_flexorright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Hip_flexorLeft_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Hip_flexorLeft_startExercixe" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.Hip_flexorLeft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.HipFlexor_stretchright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.HipFlexor_stretchright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.HipFlexor_stretchright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.HipFlexor_stretchLeft_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.HipFlexor_stretchLeft_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.HipFlexor_stretchLeft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.High_steeping_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.High_steeping_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFive.High_steeping_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.High_plank_jack_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.High_plank_jack_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.High_plank_jack_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.High_kneeTap_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.High_kneeTap_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.High_kneeTap_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.HamString_Stretch_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.HamString_Stretch_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.HamString_Stretch_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Flutter_kick_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Flutter_kick_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Flutter_kick_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Elevated_pike_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Elevated_pike_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Elevated_pike_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Dynamic_hip_flexor_stretch_right_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Dynamic_hip_flexor_stretch_right_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Dynamic_hip_flexor_stretch_right_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Dynamic_hip_flexor_stretch_left_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Dynamic_hip_flexor_stretch_left_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Dynamic_hip_flexor_stretch_left_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Deficit_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Deficit_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayFour.Deficit_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Decline_wide_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Decline_wide_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Decline_wide_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Crosskness_tricep_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Crosskness_tricep_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.CrossKness_tricep_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Cocoons_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Cocoons_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Cocoons_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.ClapKness_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.ClapKness_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.ClapKness_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Child_poseExtended_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Child_poseExtended_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Child_poseExtended_Ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Chest_tap_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Chest_tap_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Chest_tap_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.ChestStretch_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.ChestStretch_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.ChestStretch_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.CamalPose_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.CamalPose_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.CamalPose_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Burpee_pushup_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Burpee_pushup_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daythree.Burpee_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_splitsuat_jumpright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_splitsuat_jumpright_startExcercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_splitsuat_jumpright_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_splitsuat_jumpLeft_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_splitsuat_jumpLeft_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bulgarian_splitsuat_jumpLeft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Box_glute_stretchright_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Box_glute_stretchright_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Box_glute_stretchright_read_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Box_glute_stretchLeft_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Box_glute_stretchLeft_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Box_glute_stretchLeft_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Boat_holdlegFlutter_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Boat_holdlegFlutter_startExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Boat_holdlegFlutter_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bike_push_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bike_push_StartExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Bike_pushup_ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.BicycleCrunches_rest" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.BicycleCruches_StartExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.BicycleCrunches_Ready_togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Backtwist_restActivity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Backtwist_StartExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.daytwo.Backtwist_ready_Togo" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.ReverseCraches_restActivity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.ReverseCraches_StartExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.ReverseCrunches_Ready_togo_activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.CobraStretch_rest_activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.CobraStrech_StartExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.CobraStretch_Ready_togo_activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Plank_rest_Activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Plank_StartExercise" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Plank_ready_togo_activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.PushUp_restActivity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.StartExercise_pushup" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Pushup_ready_togo_Activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.AbdominalCrunches_restActivity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.StartExercise_abdominalcrunches" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Dayone_abdominalcrunches_goto_ready" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Dyaone_squat_readytogo_activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Dayone_squat_rest_Activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.DayOne_squat_startexercise_activity" />
+        <activity android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.DayOne_RestActivity" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.StartExercise_mountainclimber"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.ALL_DAY_FOLDER.dayone.Ready_togo_activity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.shouldere_workout_excercise.Main_shoulder_workout_excercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.leg_workout_excercise.Main_leg_workout_excercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Chest_workout_excercise.Main_chest_workout_excercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.Arm_workout_excercise.Main_arm_workout_excercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.AdvanceExcercise.Advance_excercise_fragment.abc_workout_excercise.Main_ABC_workout_excercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DayEight"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DaySeven"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DaySix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DayFive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DayFour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DayThree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DayTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.SquateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.ExcerciseActivity.All_Day_Excercise.DayOne"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietFive_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietTen_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietNine_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietEight_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietSeven_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietSix_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietFour_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietThree_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.DietTwo_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.fragment.diet_Fragment.alldietActivity.Dietone_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.AdvanceExcercise.AdvanceLevelExcercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.BegginnerLevel.BegginingLevelExcercise"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fitnessapps.workoutapps.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

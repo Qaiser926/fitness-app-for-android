@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fitness Home Workout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+// orignal admob banner id:ca-app-pub-7329144736244454/8186521051
+    // original admob interstitial id:ca-app-pub-7329144736244454/8122694454
+
+    <string name="admob_banner_ads_ids">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ads_ids">ca-app-pub-3940256099942544/1033173712</string>
+
+    // origanal fb interstitial ads di:488064372280657_488064398947321
+    // orignal fb banner ads id:488064372280657_488069828946778
+
+    <string name="fb_interstitial_ads">350287650125509_350300226790918</string>
+    <string name="fb_bannner_ads">350287650125509_350299916790949</string>
+
+
+
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="30dp"
+    android:paddingBottom="20dp"
+    android:layout_gravity="center"
+    android:background="#EAEAEA"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="340dp"
+            android:layout_height="160dp"
+            app:lottie_rawRes="@raw/decline_wide_pushup"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="X"
+            android:textColor="@color/black"
+            android:id="@+id/declinewide_pushup_finish"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/ciculer_background"
+            android:layout_alignEnd="@id/abdominal_descripton"
+            android:layout_alignRight="@id/abdominal_descripton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DECLINE WIDE PUSHUP"
+            android:layout_below="@id/animationView"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textSize="25dp"
+            android:layout_marginTop="14dp"
+            android:id="@+id/abdominal_header"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Repeat"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/abdominal_header"
+            android:textSize="15dp"
+            android:id="@+id/abdominal_repeat"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="1X18"
+            android:layout_alignEnd="@id/abdominal_descripton"
+            android:layout_below="@id/abdominal_header"
+            android:layout_marginRight="10dp"
+            android:layout_alignRight="@id/abdominal_descripton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/abdominal_descripton"
+            android:paddingRight="10dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/abdominal_repeat"
+            android:text="Start in a plank position, with hands
+stacked under your shoulders. Put your feet up onto a bench or box.
+Begin lowering your body by bending your elbows, keeping your core
+tight and your back flat, until your chest grazes the floor.
+Keep your elbows pointed slightly back"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
